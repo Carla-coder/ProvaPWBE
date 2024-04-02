@@ -1,0 +1,12 @@
+MER - Dicionario de Dados
+
+Veiculo:
+Atributos: placa (Chave Primária), modelo, marca, tipo, diaria.
+Cliente:
+Atributos: cpf (Chave Primária), nome.
+Telefone:
+Atributos: id (Chave Primária), cpf_cliente (Chave Estrangeira referenciando Cliente), telefone.
+Reserva:
+Atributos: reserva_id (Chave Primária), reserva, retirada, devolucao, dias, subtotal.
+Status_Reserva:
+Atributos: reserva_id (Chave Estrangeira referenciando Reserva), status.
